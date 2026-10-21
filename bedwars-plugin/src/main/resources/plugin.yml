@@ -1,0 +1,15 @@
+name: MineStormBedWars
+api-version: '1.13'
+version: ${project.version}
+author: MineStorm
+authors: [MineStorm, andrei1058]
+description: MineStorm BedWars minigame (based on BedWars1058 by andrei1058)
+main: com.andrei1058.bedwars.BedWars
+softdepend: [Vault,PlaceholderAPI,Citizens,Parties,SlimeWorldManager,VipFeatures,Enhanced-SlimeWorldManager,PartyAndFriends,Spigot-Party-API-PAF,BedFight]
+permissions:
+  bw.private:
+    description: Allows /bw private (party-only private matches)
+    default: true
+  bw.private.bypass:
+    description: Join any MineStorm private match
+    default: op
